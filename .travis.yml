@@ -10,7 +10,7 @@ before_install:
     - docker build -t ntonjeta/iidea-Docker .
 
 after_success:
-    - sh opt/llvm/install-script
+    - ./opt/llvm/install-clang
 
 #script:
 #    - insert example script to run
