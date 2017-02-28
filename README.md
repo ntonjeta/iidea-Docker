@@ -1,5 +1,7 @@
 # Iidea-docker
-[![Build Status](https://travis-ci.org/ntonjeta/iidea-Docker/branches)]()
+[![Build Status](https://travis-ci.org/ntonjeta/iidea-Docker.svg?branch=master)](https://travis-ci.org/ntonjeta/iidea-Docker) 
+------------
+
 ArchLinux-base Docker image with Iidea tool
 
 ### Introduction to Bellerophon ###
