@@ -7,7 +7,7 @@ MAINTAINER Giovanni Panice <n@mosfet.io>
 RUN pacman -Syu
 
 # Install essential packages
-run pacman --noconfirm -S git vim 
+run pacman --noconfirm -S git vim cmake 
 
 CMD bash
 
