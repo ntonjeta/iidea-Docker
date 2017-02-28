@@ -1,18 +1,17 @@
-# bellerophon-docker
-Docker image for Iidea
+# Iidea-docker
+ArchLinux-base Docker image with Iidea tool
 
-### Introduction to Bellerophont ###
+### Introduction to Bellerophon ###
 ------------
 
-Bellerophont is a genetic optimization tools, used in approximate computing context.
-It is developed to use in collaboration with [clang-Chimera] (https://github.com/ntonjeta/clang-chimera). clang-Chimera provide code mutation, and Bellerophon use genetic algorithm to find the pareto-front of possible approximation. 
+Bellerophont is a genetic optimization tools, used in approximate computing context. It is developed to use in collaboration with [clang-Chimera] (https://github.com/ntonjeta/clang-chimera). Clang-Chimera provide code mutation, and Bellerophon use genetic algorithm to find the pareto-front of possible approximation. 
 
-More details of Bellerophon implementation can found on my master's thesis.
+You can find more details about Bellerophon at [ntonjeta/bellerophon] (https://github.com/ntonjeta/Bellerophon).
 
 #### Example ####
 -------- 
 
-You can test a simple exampe provide in the image: 
+You can test a simple example: 
 
     docker run -it ...
 
