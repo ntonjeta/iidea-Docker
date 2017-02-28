@@ -9,6 +9,8 @@ before_install:
     - docker info
     - docker build -t ntonjeta/iidea-Docker .
 
+after_success:
+    - sh opt/llvm/install-script
 
 #script:
 #    - insert example script to run
