@@ -16,7 +16,7 @@ CMD bash
 ADD . /opt/install-clang
 
 # Run script Install clang
-RUN /opt/install-clang/install-clang
+#RUN /opt/install-clang/install-clang
 
 # Create a new user
 RUN useradd -ms /bin/bash homer
