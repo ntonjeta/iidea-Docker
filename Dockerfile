@@ -22,5 +22,5 @@ ADD . /opt/install-clang
 RUN useradd -ms /bin/bash homer
 
 # Expose user
-USER homer
+#USER homer
 
