@@ -7,7 +7,7 @@ services:
 
 before_install:
     - docker info
-    - docker build -t ntonjeta/iidea-Docker .
+    - docker build -t ntonjet/iidea-Docker .
 
 after_success:
     - ./opt/llvm/install-clang
