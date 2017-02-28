@@ -1,0 +1,61 @@
+#! /bin/bash
+
+#### Copy all output to log file.
+log=install.$$.log
+echo "Recording log in $log ..."
+exec > >(tee $log) # Requires fdescfs mounted to /dev/fd on FreeBSD.
+exec 2>&1
+
+#### Set paths and environment.
+
+unset CFLAGS
+unset CXXFLAGS
+unset CPPFLAGS
+unset LDFLAGS
+unset LD_LIBRARY_PATH
+unset DYLD_LIBRARY_PATH
+
+# Built libraries with RTTI.
+export REQUIRES_RTTI=1
+export PATH=/opt/llvm/bin:$PATH
+
+mdir="/opt/llvm"
+
+src="$mdir/src/llvm"
+src_libcxxabi=${src}/projects/libcxxabi
+src_libcxx=${src}/projects/libcxx
+src_compilerrt=${src}/projects/compiler-rt
+src_lldb=${src}/lldb
+src_lld=${src}/lld
+libcxx_include=$prefix/include/c++/v1
+libcxx_lib=$prefix/lib
+default_includes=${libcxx_include}:/usr/include
+
+mkdir -p $libcxx_include
+
+mkdir -p $src
+
+# Clone llvm
+git clone http://llvm.org/git/llvm.git $src
+
+( cd $src/tools && git clone http://llvm.org/git/clang.git )
+( cd $src/projects && git clone http://llvm.org/git/libcxx )
+( cd $src/projects && git clone http://llvm.org/git/compiler-rt )
+
+( cd $src && git checkout -q ${version_llvm} )
+( cd $src/tools/clang && git checkout -q ${version_clang}  )
+( cd ${src_libcxx} && git checkout -q ${version_libcxx} )
+( cd ${src_compilerrt} && git checkout -q ${version_compilerrt} )
+
+( cd $src/projects && git clone http://llvm.org/git/libcxxabi )
+( cd ${src_libcxxabi} && git checkout -q ${version_libcxxabi} )
+
+# clone extra tools 
+( cd $src/tools && git clone http://llvm.org/git/clang-tools-extra.git extra )
+( cd $src/tools/extra && git checkout -q ${version_extra} )
+
+( cd `dirname ${src_lldb}` && git clone http://llvm.org/git/lldb `basename ${src_lldb}`)
+( cd ${src_lldb} && git checkout -q ${version_lldb}  )
+
+( cd `dirname ${src_lld}` && git clone http://llvm.org/git/lld `basename ${src_lld}`)
+( cd ${src_lld} && git checkout -q ${version_lld}  )
