@@ -16,7 +16,9 @@ CMD bash
 # Copy install script
 ADD . /opt/install-iidea
 
-# Run script Install clang
+# Run script Install 
+#RUN /opt/install-iidea/install-paradiseo
+#RUN /opt/install-iidea/install-bellerophon
 #RUN /opt/install-iidea/install-iidea
 
 # Create a new user

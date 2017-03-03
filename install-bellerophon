@@ -6,12 +6,24 @@ echo "Recording log in $log ..."
 exec > >(tee $log) # Requires fdescfs mounted to /dev/fd on FreeBSD.
 exec 2>&1
 
+cd /opt
+
+mkdir bellerophon-install
+
+cd bellerophon-install
 
 git clone https://github.com/ntonjeta/Bellerophon
+
 cd Bellerophon
+
 mkdir build
+
 cd build
+
+## add fix paradiseo
 cmake ../ 
+
 make
+
 
 
