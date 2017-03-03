@@ -9,7 +9,7 @@ MAINTAINER Antonio Tammaro <ntonjeta@autistici.org>
 RUN pacman --noconfirm -Syu
 
 # Install essential packages
-run pacman --noconfirm -S git zsh libedit libffi wget libtar doxygen
+run pacman --noconfirm -S git zsh libedit libffi wget libtar doxygen 
 
 CMD bash
 
@@ -17,9 +17,9 @@ CMD bash
 ADD . /opt/install-iidea
 
 # Run script Install 
+RUN /opt/install-iidea/install-chimera
 RUN /opt/install-iidea/install-paradiseo
-#RUN /opt/install-iidea/install-bellerophon
-#RUN /opt/install-iidea/install-iidea
+RUN /opt/install-iidea/install-bellerophon
 
 # Create a new user
 RUN useradd -ms /bin/bash homer
