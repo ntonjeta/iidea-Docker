@@ -3,18 +3,20 @@ FROM mariobarbareschi/clang_llvm391
 MAINTAINER Giovanni Panice <n@mosfet.io>
 MAINTAINER Antonio Tammaro <ntonjeta@autistici.org>
 
-# Update Software 
+#RUN rm /bin/sh && ln -s /bin/bash /bin/sh
 
+# Update Software 
 # Default command at startup
 RUN pacman --noconfirm -Syu
 
 # Install essential packages
 run pacman --noconfirm -S git zsh libedit libffi wget libtar doxygen 
 
-CMD bash
 
 # Copy install script
 ADD . /opt/install-iidea
+
+SHELL ["/bin/bash", "-c"]
 
 # Run script Install 
 RUN /opt/install-iidea/install-chimera

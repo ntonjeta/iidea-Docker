@@ -6,16 +6,23 @@ echo "Recording log in $log ..."
 exec > >(tee $log) # Requires fdescfs mounted to /dev/fd on FreeBSD.
 exec 2>&1
 
-mdir="/opt/llvm"
+cd /opt
 
-src="$mdir/src/clang-chimera"
-build="$mdir/build/clang-chimera"
+mkdir chimera-install
 
-mkdir -p $src 
-mkdir -p $build
+cd chimera-install
 
+git clone https://github.com/ntonjeta/clang-chimera 
+
+cd clang-chimera
+
+mkdir build
+
+cd build
+
+cmake ../ 
+
+make
 # clone chimera repository
 
-git clone https://github.com/ntonjeta/clang-chimera $src 
 
-(cmake $src)
