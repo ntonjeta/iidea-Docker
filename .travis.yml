@@ -19,8 +19,8 @@ before_install:
 #after_success:
 #    - ./opt/llvm/install-clang
 
-script:  
-    - cd /opt/install-iidea/
+#script:  
+    #- cd /opt/install-iidea/
     #- ./install-bellerophon 
 
 #script:
