@@ -23,6 +23,7 @@ cd build
 cmake ../ 
 
 make
-# clone chimera repository
+
+make install 
 
 
