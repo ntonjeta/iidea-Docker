@@ -1,5 +1,5 @@
 # Iidea-docker
-[![Build Status](https://travis-ci.org/ntonjeta/iidea-Docker.svg?branch=master)](https://travis-ci.org/ntonjeta/iidea-Docker) 
+[![Build Status](https://travis-ci.org/ntonjeta/iidea-Docker.svg?branch=master)](https://travis-ci.org/ntonjeta/iidea-Docker) [![](https://images.microbadger.com/badges/image/ntonjet/iidea-docker.svg)](https://microbadger.com/images/ntonjet/iidea-docker "Get your own image badge on microbadger.com")
 ------------
 
 ArchLinux-base Docker image with Iidea tool
