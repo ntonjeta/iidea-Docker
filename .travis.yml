@@ -15,7 +15,6 @@ before_install:
     - docker run -d -p 127.0.0.1:80:4567 ntonjet/iidea-docker /bin/bash -c "cd /opt/install-iidea"
     - docker ps -a
     - docker run ntonjet/iidea-docker /bin/bash -c "./install-bellerophon"
-    - docker run -it --user root ntonjet/iidea-docker 
 
 #after_success:
 #    - ./opt/llvm/install-clang
