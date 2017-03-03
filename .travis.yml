@@ -21,7 +21,7 @@ before_install:
 
 script:  
     - cd /opt/install-iidea/
-    - ./install-bellerophon 
+    #- ./install-bellerophon 
 
 #script:
   #- insert example script to run
