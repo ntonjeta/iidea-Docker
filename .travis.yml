@@ -1,0 +1,17 @@
+sudo: required
+
+language: C
+
+services:
+      - docker
+
+before_install:
+    - docker info
+    - docker build -t ntonjet/iidea-docker .
+    - docker run --it --name ntonjet/iidea-docker bash
+
+#after_success:
+#    - ./opt/llvm/install-clang
+
+script:
+    - docker ps | grep -q ntonjet/iidea-docker
