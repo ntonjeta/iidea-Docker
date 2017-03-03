@@ -6,7 +6,7 @@ MAINTAINER Antonio Tammaro <ntonjeta@autistici.org>
 # Update Software 
 
 # Default command at startup
-RUN pacman -Syu
+RUN pacman --noconfirm -Syu
 
 # Install essential packages
 run pacman --noconfirm -S git vim cmake zsh 
