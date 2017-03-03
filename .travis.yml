@@ -11,7 +11,7 @@ services:
 before_install:
     - docker info
     - docker build -t ntonjet/iidea-docker .
-    - docker run -d -p 127.0.0.1:4000 ntonjet/iidea-docker /bin/bash 
+    - docker run -it --user root ntonjet/iidea-docker 
 
 #after_success:
 #    - ./opt/llvm/install-clang
