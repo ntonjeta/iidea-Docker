@@ -1,4 +1,5 @@
-FROM base/archlinux
+FROM mariobarbareschi/clang_llvm391
+
 MAINTAINER Giovanni Panice <n@mosfet.io>
 MAINTAINER Antonio Tammaro <ntonjeta@autistici.org>
 
