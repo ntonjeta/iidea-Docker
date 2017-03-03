@@ -1,6 +1,9 @@
 sudo: required
 
-#language: C
+language: C
+
+compiler:
+      - gcc
 
 services:
       - docker
@@ -8,9 +11,14 @@ services:
 before_install:
     - docker info
     - docker build -t ntonjet/iidea-docker .
+    - docker run -d -p 127.0.0.1:4000 ntonjet/iidea-docker /bin/bash 
 
 #after_success:
 #    - ./opt/llvm/install-clang
 
+script:  
+    - cd /opt/install-iidea/
+    - ./install-bellerophon 
+
 #script:
-#    - insert example script to run
+  #- insert example script to run
