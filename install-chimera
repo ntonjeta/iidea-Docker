@@ -1,0 +1,37 @@
+#! /bin/bash
+
+#### Copy all output to log file.
+log=install.$$.log
+echo "Recording log in $log ..."
+exec > >(tee $log) # Requires fdescfs mounted to /dev/fd on FreeBSD.
+exec 2>&1
+
+#### Set paths and environment.
+
+unset CFLAGS
+unset CXXFLAGS
+unset CPPFLAGS
+unset LDFLAGS
+unset LD_LIBRARY_PATH
+unset DYLD_LIBRARY_PATH
+
+mdir="/opt/llvm"
+
+src="$mdir/src/clang-chimera"
+build="$mdir/build/clang-chimera"
+
+mkdir -p $src 
+mkdir -p $build
+
+# clone chimera repository
+
+git clone https://github.com/ntonjeta/clang-chimera $src 
+
+(cmake $src)
+
+
+
+
+ 
+
+
