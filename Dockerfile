@@ -9,7 +9,7 @@ MAINTAINER Antonio Tammaro <ntonjeta@autistici.org>
 RUN pacman --noconfirm -Syu
 
 # Install essential packages
-run pacman --noconfirm -S zsh libedit libffi wget libtar doxygen
+run pacman --noconfirm -S git zsh libedit libffi wget libtar doxygen
 
 CMD bash
 
