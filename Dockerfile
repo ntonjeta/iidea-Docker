@@ -9,7 +9,7 @@ MAINTAINER Antonio Tammaro <ntonjeta@autistici.org>
 RUN pacman --noconfirm -Syu
 
 # Install essential packages
-run pacman --noconfirm -S git vim cmake zsh libedit libffi 
+run pacman --noconfirm -S git vim cmake zsh libedit libffi wget libtar
 
 CMD bash
 
@@ -17,7 +17,7 @@ CMD bash
 ADD . /opt/install-iidea
 
 # Run script Install 
-#RUN /opt/install-iidea/install-paradiseo
+RUN /opt/install-iidea/install-paradiseo
 #RUN /opt/install-iidea/install-bellerophon
 #RUN /opt/install-iidea/install-iidea
 
