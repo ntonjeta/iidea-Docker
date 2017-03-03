@@ -9,7 +9,7 @@ MAINTAINER Antonio Tammaro <ntonjeta@autistici.org>
 RUN pacman --noconfirm -Syu
 
 # Install essential packages
-run pacman --noconfirm -S git vim cmake zsh 
+run pacman --noconfirm -S git vim cmake zsh libedit libffi 
 
 CMD bash
 
