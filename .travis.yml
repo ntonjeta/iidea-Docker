@@ -8,7 +8,7 @@ services:
 before_install:
     - docker info
     - docker build -t ntonjet/iidea-docker .
-    - docker run --it --name ntonjet/iidea-docker bash
+    - docker run -it --name ntonjet/iidea-docker bash
 
 #after_success:
 
