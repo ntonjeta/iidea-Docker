@@ -1,16 +1,14 @@
 FROM mariobarbareschi/clang_llvm391
 
-MAINTAINER Giovanni Panice <n@mosfet.io>
-MAINTAINER Antonio Tammaro <ntonjeta@autistici.org>
+MAINTAINER Giovanni Panice   <n@mosfet.io>
+MAINTAINER Antonio Tammaro   <ntonjeta@autistici.org>
+MAINTAINER Mario Barbareschi <mario.barbareschi@unina.it>
 
 #RUN rm /bin/sh && ln -s /bin/bash /bin/sh
 
 # Update Software 
 # Default command at startup
-RUN pacman --noconfirm -Syu
-
-# Install essential packages
-run pacman --noconfirm -S git zsh libedit libffi wget libtar doxygen 
+RUN pacman --noconfirm -Syu && pacman --noconfirm -S git zsh libedit libffi wget libtar doxygen 
 
 
 # Copy install script
@@ -24,7 +22,7 @@ RUN /opt/install-iidea/install-paradiseo
 RUN /opt/install-iidea/install-bellerophon
 
 # Create a new user
-RUN useradd -ms /bin/bash homer
+#RUN useradd -ms /bin/bash homer
 
 # Expose user
 #USER homer
