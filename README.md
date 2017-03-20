@@ -15,19 +15,19 @@ You can find more details about Bellerophon at [ntonjeta/bellerophon] (https://g
 
 1) Download and build container 
     
-    - git clone https://github.com/ntonjeta/iidea-Docker
-    - cd iidea-Docker/
-    - docker build -t <name> . 
+    git clone https://github.com/ntonjeta/iidea-Docker
+    cd iidea-Docker/
+    docker build -t <name> . 
 
 It will take some minutes for download and build neccesary.
 
 2) Run container and mount volume
   
-    - docker run -dit -v /path/to/host/folder:/absolute/path/to/container/folder/ <container hash> 
+    docker run -dit -v /path/to/host/folder:/absolute/path/to/container/folder/ <container hash> 
 
 3) Attach to container 
 
-    - docker attach <containerhash> 
+    docker attach <containerhash> 
 
 Now you have an interactive shell in wich you can use "clang-chimnera" and "bellerophon" tool. Furthermore, you can use volume for share file with host machine. 
 
