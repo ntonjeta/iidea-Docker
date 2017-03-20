@@ -13,7 +13,7 @@ You can find more details about Bellerophon at [ntonjeta/bellerophon] (https://g
 
 ### How use container ###
 
-1) Download and build container 
+Download and build container 
     
     git clone https://github.com/ntonjeta/iidea-Docker
     cd iidea-Docker/
@@ -21,11 +21,11 @@ You can find more details about Bellerophon at [ntonjeta/bellerophon] (https://g
 
 It will take some minutes for download and build neccesary.
 
-2) Run container and mount volume
+Run container and mount volume
   
     docker run -dit -v /path/to/host/folder:/absolute/path/to/container/folder/ <container hash> 
 
-3) Attach to container 
+Attach to container 
 
     docker attach <containerhash> 
 
