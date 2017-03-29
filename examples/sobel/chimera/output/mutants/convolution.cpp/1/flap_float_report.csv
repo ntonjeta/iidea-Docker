@@ -1,0 +1,6 @@
+OP_0,34,FLOAT,ADD,"r","OP_1","r"
+OP_1,34,FLOAT,MUL,"w[i][j]","k[j][i]","NULL"
+OP_2,69,FLOAT,ADD,"OP_3","OP_4","s"
+OP_3,69,FLOAT,MUL,"sx","sx","NULL"
+OP_4,69,FLOAT,MUL,"sy","sy","NULL"
+OP_5,73,DOUBLE,DIV,"255","sqrt(256*256+256*256)","s"

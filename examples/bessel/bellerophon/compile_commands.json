@@ -1,0 +1,7 @@
+[
+{
+  "command": "clang++  -std=c++11 -c ../chimera/output/mutants/bessel.cpp/1/bessel.cpp -I ../src/",
+  "directory": "/home/ntonjeta/Approximate/examples/bessel/src/",
+  "file": "../chimera/output/mutants/bessel.cpp/1/bessel.cpp"
+}
+]

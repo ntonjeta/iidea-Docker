@@ -1,0 +1,7 @@
+[
+    {
+        "command": "c++ -c -std=c++11 -I include -o test ../chimera/output/mutants/test.cpp/2/test.cpp", 
+        "directory": "/home/ntonjeta/Approximate/examples/taylor/src", 
+        "file": "../chimera/output/mutants/test.cpp/2/test.cpp"
+    }
+]

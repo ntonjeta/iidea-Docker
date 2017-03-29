@@ -1,0 +1,13 @@
+[
+  {
+    "command": "clang++ -c -std=c++11  ../chimera/output/mutants/segmentation.cpp/2/segmentation.cpp -I../src/ -I../src/include/", 
+    "directory": "/home/ntonjeta/Approximate/examples/kmeans/src", 
+    "file": "../chimera/output/mutants/segmentation.cpp/2/segmentation.cpp"
+  },
+
+  {
+    "command": "clang++ -c -std=c++11 ../bellerophon/loop_function.cpp -I../src/ -I../src/include/", 
+    "directory": "/home/ntonjeta/Approximate/examples/kmeans/src", 
+    "file": "../bellerophon/loop_functions.cpp"
+  }
+]

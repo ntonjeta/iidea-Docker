@@ -1,0 +1,17 @@
+[
+  {
+    "command": "clang++ -c -std=c++11  ../chimera/output/mutants/sobel.cpp/2/sobel.cpp -I./boost_1_63_0 -I./include -I. ", 
+    "directory": "/home/ntonjeta/Approximate/examples/sobel/src", 
+    "file": "../chimera/output/mutants/sobel.cpp/2/sobel.cpp"
+  },
+  {
+    "command": "clang++ -c -std=c++11  ../src/rgb_image.cpp -I./boost_1_63_0 -I./include -I. ", 
+    "directory": "/home/ntonjeta/Approximate/examples/sobel/src", 
+    "file": "../src/rgb_image.cpp"
+  },
+  {
+    "command": "clang++ -c -std=c++11  ../src/convolution.cpp -I./boost_1_63_0 -I./include -I. ", 
+    "directory": "/home/ntonjeta/Approximate/examples/sobel/src", 
+    "file": "../src/convolution.cpp"
+  }
+]

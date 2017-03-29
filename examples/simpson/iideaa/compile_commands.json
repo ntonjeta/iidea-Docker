@@ -1,0 +1,8 @@
+[
+   {
+    
+        "command": "c++ -c  -std=c++11 -o test ../chimera/output/mutants/test.cpp/1/test.cpp", 
+        "directory": "/mnt/hgfs/sharedfolder/examples/simpson/src", 
+        "file": "../chimera/output/mutants/test.cpp/1/test.cpp"
+    }
+]

@@ -1,0 +1,150 @@
+Execution stop: Unable to find a valid compilation database
+AprxLocation-> Id:0, Grade:0, Description: Internal id: OP_0
+AprxLocation-> Id:1, Grade:0, Description: Internal id: OP_1
+* Dominates:
+* + 2
+AprxLocation-> Id:2, Grade:0, Description: Internal id: OP_2
+* Dominates:
+* + 0
+* + 3
+AprxLocation-> Id:3, Grade:0, Description: Internal id: OP_3
+* Dominates:
+* + 4
+AprxLocation-> Id:4, Grade:0, Description: Internal id: OP_4
+* Dominates:
+* + 0
+* + 5
+AprxLocation-> Id:5, Grade:0, Description: Internal id: OP_5
+* Dominates:
+* + 6
+AprxLocation-> Id:6, Grade:0, Description: Internal id: OP_6
+* Dominates:
+* + 0
+* + 7
+AprxLocation-> Id:7, Grade:0, Description: Internal id: OP_7
+* Dominates:
+* + 8
+AprxLocation-> Id:8, Grade:0, Description: Internal id: OP_8
+* Dominates:
+* + 0
+* + 9
+AprxLocation-> Id:9, Grade:0, Description: Internal id: OP_9
+* Dominates:
+* + 10
+AprxLocation-> Id:10, Grade:0, Description: Internal id: OP_10
+* Dominates:
+* + 0
+AprxLocation-> Id:11, Grade:0, Description: Internal id: OP_11
+* Dominates:
+* + 12
+AprxLocation-> Id:12, Grade:0, Description: Internal id: OP_12
+* Dominates:
+* + 0
+* + 13
+AprxLocation-> Id:13, Grade:0, Description: Internal id: OP_13
+* Dominates:
+* + 14
+AprxLocation-> Id:14, Grade:0, Description: Internal id: OP_14
+* Dominates:
+* + 0
+* + 15
+AprxLocation-> Id:15, Grade:0, Description: Internal id: OP_15
+* Dominates:
+* + 16
+AprxLocation-> Id:16, Grade:0, Description: Internal id: OP_16
+* Dominates:
+* + 0
+* + 17
+AprxLocation-> Id:17, Grade:0, Description: Internal id: OP_17
+* Dominates:
+* + 18
+AprxLocation-> Id:18, Grade:0, Description: Internal id: OP_18
+* Dominates:
+* + 0
+* + 19
+AprxLocation-> Id:19, Grade:0, Description: Internal id: OP_19
+* Dominates:
+* + 20
+AprxLocation-> Id:20, Grade:0, Description: Internal id: OP_20
+* Dominates:
+* + 0
+AprxLocation-> Id:21, Grade:0, Description: Internal id: OP_21
+* Dominates:
+* + 1
+* + 11
+AprxLocation-> Id:22, Grade:0, Description: Internal id: OP_22
+AprxLocation-> Id:23, Grade:0, Description: Internal id: OP_23
+* Dominates:
+* + 22
+AprxLocation-> Id:24, Grade:0, Description: Internal id: OP_24
+AprxLocation-> Id:25, Grade:0, Description: Internal id: OP_25
+* Dominates:
+* + 26
+AprxLocation-> Id:26, Grade:0, Description: Internal id: OP_26
+* Dominates:
+* + 23
+* + 27
+AprxLocation-> Id:27, Grade:0, Description: Internal id: OP_27
+* Dominates:
+* + 28
+AprxLocation-> Id:28, Grade:0, Description: Internal id: OP_28
+* Dominates:
+* + 23
+* + 29
+AprxLocation-> Id:29, Grade:0, Description: Internal id: OP_29
+* Dominates:
+* + 30
+AprxLocation-> Id:30, Grade:0, Description: Internal id: OP_30
+* Dominates:
+* + 23
+* + 31
+AprxLocation-> Id:31, Grade:0, Description: Internal id: OP_31
+* Dominates:
+* + 32
+AprxLocation-> Id:32, Grade:0, Description: Internal id: OP_32
+* Dominates:
+* + 23
+AprxLocation-> Id:33, Grade:0, Description: Internal id: OP_33
+* Dominates:
+* + 34
+AprxLocation-> Id:34, Grade:0, Description: Internal id: OP_34
+* Dominates:
+* + 23
+* + 35
+AprxLocation-> Id:35, Grade:0, Description: Internal id: OP_35
+* Dominates:
+* + 36
+AprxLocation-> Id:36, Grade:0, Description: Internal id: OP_36
+* Dominates:
+* + 23
+* + 37
+AprxLocation-> Id:37, Grade:0, Description: Internal id: OP_37
+* Dominates:
+* + 38
+AprxLocation-> Id:38, Grade:0, Description: Internal id: OP_38
+* Dominates:
+* + 23
+* + 39
+AprxLocation-> Id:39, Grade:0, Description: Internal id: OP_39
+* Dominates:
+* + 40
+AprxLocation-> Id:40, Grade:0, Description: Internal id: OP_40
+* Dominates:
+* + 23
+AprxLocation-> Id:41, Grade:0, Description: Internal id: OP_41
+* Dominates:
+* + 0
+AprxLocation-> Id:42, Grade:0, Description: Internal id: OP_42
+* Dominates:
+* + 0
+AprxLocation-> Id:43, Grade:0, Description: Internal id: OP_43
+* Dominates:
+* + 25
+AprxLocation-> Id:44, Grade:0, Description: Internal id: OP_44
+* Dominates:
+* + 23
+AprxLocation-> Id:45, Grade:0, Description: Internal id: OP_45
+* Dominates:
+* + 22
+* + 33
+Compiling the database ...

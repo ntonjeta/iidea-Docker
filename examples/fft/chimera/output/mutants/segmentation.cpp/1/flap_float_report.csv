@@ -1,0 +1,6 @@
+OP_0,290,FLOAT,MUL,"","scale","x"
+OP_1,290,FLOAT,DIV,"(float)rand()","","NULL"
+OP_2,293,FLOAT,MUL,"","scale","x"
+OP_3,293,FLOAT,DIV,"(float)rand()","","NULL"
+OP_4,296,FLOAT,MUL,"","scale","x"
+OP_5,296,FLOAT,DIV,"(float)rand()","","NULL"
