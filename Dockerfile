@@ -8,7 +8,8 @@ MAINTAINER Mario Barbareschi <mario.barbareschi@unina.it>
 
 # Update Software 
 # Default command at startup
-RUN pacman --noconfirm -Syu && pacman --noconfirm -S git zsh libedit libffi wget libtar doxygen 
+RUN  pacman --noconfirm -S git zsh libedit libffi wget libtar doxygen 
+#pacman --noconfirm -Syu &&
 
 
 # Copy install script
