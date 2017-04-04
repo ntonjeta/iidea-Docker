@@ -189,7 +189,7 @@ double BESSJ ( int N, double X )
     }
 }
 
-char oracle_path[]= "/home/ntonjeta/Approximate/examples/bessel/oracle/bessel_oracle.txt";
+char oracle_path[]= "/opt/Approximate/examples/bessel/oracle/bessel_oracle.txt";
 
 extern "C" double BELLERO_getError()
 {

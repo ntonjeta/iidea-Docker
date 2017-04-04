@@ -365,8 +365,8 @@ void segmentImage(RgbImage* image, Clusters* clusters, int n) {
 
 // BELLEROPHON FUNCTION
 
-char golden_image_path[] = "/home/ntonjeta/Approximate/examples/kmeans/images/original.rgb";
-char noaprx_image_path[] = "/home/ntonjeta/Approximate/examples/kmeans/images/noaprx.rgb";
+char golden_image_path[] = "/opt/Approximate/examples/kmeans/images/original.rgb";
+char noaprx_image_path[] = "/opt/Approximate/examples/kmeans/images/noaprx.rgb";
 
 
 double eDistance(RgbPixel p, RgbPixel q) {
