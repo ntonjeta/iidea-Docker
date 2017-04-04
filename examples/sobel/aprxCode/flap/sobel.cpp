@@ -10,8 +10,8 @@
 #include <cmath>
 
 
-char src_image_path[] = "/home/ntonjeta/Approximate/examples/sobel/image/original.rgb";
-char noaprx_image_path[] = "/home/ntonjeta/Approximate/examples/sobel/image/noaprx.rgb";
+char src_image_path[] = "/opt/Approximate/examples/sobel/image/original.rgb";
+char noaprx_image_path[] = "/opt/Approximate/examples/sobel/image/noaprx.rgb";
 
 
 double eDistance(boost::shared_ptr<Pixel> p, boost::shared_ptr<Pixel> q) {
