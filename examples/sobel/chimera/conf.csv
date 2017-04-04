@@ -1,1 +1,2 @@
-filter,LoopPerforationOperator1
+convolve,FLAPOperator
+sobel,FLAPOperator
